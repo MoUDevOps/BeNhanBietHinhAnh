@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table version="1.000000" name="randomSetSource" numRows="7" numCols="6" flags="9" tableType="0">
+<rows>
+<row id="0" name=""/>
+<row id="1" name=""/>
+<row id="2" name=""/>
+<row id="3" name=""/>
+<row id="4" name=""/>
+<row id="5" name=""/>
+<row id="6" name=""/>
+</rows>
+<columns>
+<column id="0" name="" type="2" readonly="0">1,6,5,4,3,2,1</column>
+<column id="1" name="" type="2" readonly="0">2,1,6,5,4,3,2</column>
+<column id="2" name="" type="2" readonly="0">3,2,1,6,5,4,3</column>
+<column id="3" name="" type="2" readonly="0">4,3,2,1,6,5,4</column>
+<column id="4" name="" type="2" readonly="0">5,4,3,2,1,6,5</column>
+<column id="5" name="" type="2" readonly="0">6,5,4,3,2,1,6</column>
+</columns>
+</table>
+
