@@ -1,7 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.25" GSCVersion="1.25.6227">
   <sounds />
-  <images />
+  <images>
+    <image name="barnacle">
+      <file name="barnacle.png" size="895" />
+    </image>
+    <image name="bat">
+      <file name="bat.png" size="1001" />
+    </image>
+    <image name="bee">
+      <file name="bee.png" size="1267" />
+    </image>
+    <image name="fishGreen">
+      <file name="fishGreen.png" size="1082" />
+    </image>
+    <image name="fly">
+      <file name="fly.png" size="1138" />
+    </image>
+    <image name="ghost_normal">
+      <file name="ghost_normal.png" size="747" />
+    </image>
+    <image name="ladyBug">
+      <file name="ladyBug.png" size="988" />
+    </image>
+    <image name="slime">
+      <file name="slime.png" size="674" />
+    </image>
+    <image name="snail">
+      <file name="snail.png" size="1162" />
+    </image>
+  </images>
   <fonts />
   <behaviors />
 </assets>

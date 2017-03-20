@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <game GSCVersion="1.25.6227" PGFVersion="0.25" title="BeNhanBietHinhAnh">
   <tags />
-  <resolutionIndependence>0</resolutionIndependence>
+  <resolutionIndependence>1</resolutionIndependence>
   <instructions>Add game instructions here.</instructions>
   <resolution>4</resolution>
   <longDescription>A simple game.</longDescription>
@@ -31,13 +31,16 @@
     <actor id="id806186" />
     <actor id="id184762" />
     <actor id="id420895" />
+    <actor id="id434580" />
+    <actor id="id607375" />
   </prototypes>
   <plugins />
   <scenes>
     <scene id="id784395" />
+    <scene id="id747202" />
   </scenes>
   <attributes>
-    <text id="name">default name</text>
+    <text id="name">BeNhanBietHinhAnh</text>
     <real id="time">0</real>
     <integer id="randomSeed">-1</integer>
     <size id="displaySize">
@@ -200,5 +203,7 @@
     <table id="id229952" name="randomSet">Table 1</table>
     <table id="id370825" name="randomSetSource">Table 1</table>
     <integer id="id655868" name="SetSource">0</integer>
+    <integer id="id244045" name="gameTime">30</integer>
+    <integer id="id778477" name="game score">0</integer>
   </attributes>
 </game>

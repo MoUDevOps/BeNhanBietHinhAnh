@@ -14,36 +14,389 @@
     <angle id="rotation">0</angle>
     <color id="color">
       <real id="red">1</real>
-      <real id="green">0.501960784313725</real>
-      <real id="blue">0.250980392156863</real>
+      <real id="green">1</real>
+      <real id="blue">1</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image" />
+    <image id="image">ghost_normal</image>
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
+    <real id="id875924" name="SpawnPos.x">0</real>
+    <real id="id427687" name="SpawnPos.y">0</real>
   </attributes>
   <behaviors>
-    <behavior id="id881783" class="DisplayTextBehavior" enabled="true">
+    <behavior id="id628997" class="CompoundBehavior" enabled="true">
       <attributes>
-        <text id="name">Display Text</text>
-        <text id="bundleName">DisplayText.behavior</text>
-        <text id="text">S5</text>
-        <text id="font">Cambay</text>
-        <real id="size">30</real>
-        <index id="alignment">1</index>
-        <boolean id="wrap">false</boolean>
-        <color id="color">
-          <real id="red">0</real>
-          <real id="green">0</real>
-          <real id="blue">0</real>
-          <real id="alpha">1</real>
-        </color>
-        <real id="offsetx">0</real>
-        <real id="offsety">0</real>
-        <index id="space">0</index>
-        <index id="directionSpace">0</index>
-        <angle id="direction">0</angle>
+        <text id="name">Group</text>
+        <text id="bundleName">Group.behavior</text>
+        <boolean id="runOnce">false</boolean>
+        <boolean id="runSequentially">false</boolean>
       </attributes>
+      <behaviors>
+        <behavior id="id710127" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">DragDrop</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id105559" eventType="touch" pluginPredicateTypeIndex="0" class="Touch">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="touch" conditionType="pressed">
+                <attributes />
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id517647" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.position.x</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.devices.mouse.position.x" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+            <behavior id="id529213" class="ConstrainAttributeBehavior" enabled="true">
+              <attributes>
+                <text id="name">Constrain Attribute</text>
+                <text id="bundleName">ConstrainAttribute.behavior</text>
+                <text id="targetAttribute">self.attributes.position.y</text>
+                <text id="RHS">
+                  <expression>
+                    <reference keypath="game.devices.mouse.position.y" />
+                  </expression>
+                </text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id237603" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id942541" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id968624</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id126493" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id725154" class="CompoundBehavior" enabled="true">
+      <attributes>
+        <text id="name">Group</text>
+        <text id="bundleName">Group.behavior</text>
+        <boolean id="runOnce">false</boolean>
+        <boolean id="runSequentially">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id427719" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.id875924</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="self.attributes.position.x" />
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+        <behavior id="id602444" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">self.attributes.id427687</text>
+            <text id="RHS">
+              <expression>
+                <reference keypath="self.attributes.position.y" />
+              </expression>
+            </text>
+          </attributes>
+        </behavior>
+        <behavior id="id801346" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id622154" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id548723</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id747381" class="SpawnAction" enabled="true">
+              <attributes>
+                <text id="name">Spawn Actor</text>
+                <text id="bundleName">Spawn.behavior</text>
+                <text id="prototypeKey">id830212</text>
+                <angle id="direction">0</angle>
+                <index id="directionSpace">0</index>
+                <real id="x">
+                  <expression>
+                    <reference keypath="self.attributes.id875924" />
+                  </expression>
+                </real>
+                <real id="y">
+                  <expression>
+                    <reference keypath="self.attributes.id427687" />
+                  </expression>
+                </real>
+                <index id="positionSpace">1</index>
+                <index id="layerOrder">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id307856" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id894854" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id461325" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id405832</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id496874" class="SpawnAction" enabled="true">
+              <attributes>
+                <text id="name">Spawn Actor</text>
+                <text id="bundleName">Spawn.behavior</text>
+                <text id="prototypeKey">id830212</text>
+                <angle id="direction">0</angle>
+                <index id="directionSpace">0</index>
+                <real id="x">
+                  <expression>
+                    <reference keypath="self.attributes.id875924" />
+                  </expression>
+                </real>
+                <real id="y">
+                  <expression>
+                    <reference keypath="self.attributes.id427687" />
+                  </expression>
+                </real>
+                <index id="positionSpace">1</index>
+                <index id="layerOrder">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id262899" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id899067" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id766131" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id720652</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id713343" class="SpawnAction" enabled="true">
+              <attributes>
+                <text id="name">Spawn Actor</text>
+                <text id="bundleName">Spawn.behavior</text>
+                <text id="prototypeKey">id830212</text>
+                <angle id="direction">0</angle>
+                <index id="directionSpace">0</index>
+                <real id="x">
+                  <expression>
+                    <reference keypath="self.attributes.id875924" />
+                  </expression>
+                </real>
+                <real id="y">
+                  <expression>
+                    <reference keypath="self.attributes.id427687" />
+                  </expression>
+                </real>
+                <index id="positionSpace">1</index>
+                <index id="layerOrder">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id321337" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id526819" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id105046" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id811086</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id320393" class="SpawnAction" enabled="true">
+              <attributes>
+                <text id="name">Spawn Actor</text>
+                <text id="bundleName">Spawn.behavior</text>
+                <text id="prototypeKey">id830212</text>
+                <angle id="direction">0</angle>
+                <index id="directionSpace">0</index>
+                <real id="x">
+                  <expression>
+                    <reference keypath="self.attributes.id875924" />
+                  </expression>
+                </real>
+                <real id="y">
+                  <expression>
+                    <reference keypath="self.attributes.id427687" />
+                  </expression>
+                </real>
+                <index id="positionSpace">1</index>
+                <index id="layerOrder">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id722694" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id805140" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Collide with other</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id382450" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
+              <attributes>
+                <text id="name">default name</text>
+                <index id="conditionType">0</index>
+              </attributes>
+              <predicate type="collision">
+                <attributes>
+                  <text id="prototypeKey">id861509</text>
+                  <text id="actorTag" />
+                  <real id="mode">0</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id819153" class="SpawnAction" enabled="true">
+              <attributes>
+                <text id="name">Spawn Actor</text>
+                <text id="bundleName">Spawn.behavior</text>
+                <text id="prototypeKey">id830212</text>
+                <angle id="direction">0</angle>
+                <index id="directionSpace">0</index>
+                <real id="x">
+                  <expression>
+                    <reference keypath="self.attributes.id875924" />
+                  </expression>
+                </real>
+                <real id="y">
+                  <expression>
+                    <reference keypath="self.attributes.id427687" />
+                  </expression>
+                </real>
+                <index id="positionSpace">1</index>
+                <index id="layerOrder">0</index>
+              </attributes>
+            </behavior>
+            <behavior id="id883533" class="DestroyAction" enabled="true">
+              <attributes>
+                <text id="name">Destroy</text>
+                <text id="bundleName">Destroy.behavior</text>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>
