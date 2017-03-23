@@ -33,6 +33,7 @@
     <actor id="id420895" />
     <actor id="id434580" />
     <actor id="id607375" />
+    <actor id="id767897" />
   </prototypes>
   <plugins />
   <scenes>
@@ -205,5 +206,23 @@
     <integer id="id655868" name="SetSource">0</integer>
     <integer id="id244045" name="gameTime">30</integer>
     <integer id="id778477" name="game score">0</integer>
+    <real id="id297725" name="Target1.x">0.0</real>
+    <real id="id855467" name="Target1.y">0.0</real>
+    <integer id="id946047" name="Target1.match">0</integer>
+    <real id="id643044" name="Target2.x">0.0</real>
+    <real id="id278807" name="Target2.y">0.0</real>
+    <integer id="id858640" name="Target2.match">0</integer>
+    <real id="id862569" name="Target3.x">0.0</real>
+    <real id="id186305" name="Target3.y">0.0</real>
+    <integer id="id804361" name="Target3.match">0</integer>
+    <real id="id878783" name="Target4.x">0.0</real>
+    <real id="id526283" name="Target4.y">0.0</real>
+    <integer id="id684437" name="Target4.match">0</integer>
+    <real id="id140294" name="Target5.x">0.0</real>
+    <real id="id573807" name="Target5.y">0.0</real>
+    <integer id="id951371" name="Target5.match">0</integer>
+    <real id="id809472" name="Target6.x">0.0</real>
+    <real id="id482981" name="Target6.y">0.0</real>
+    <integer id="id243366" name="Target6.match">0</integer>
   </attributes>
 </game>

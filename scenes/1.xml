@@ -174,14 +174,29 @@
         <actor id="id734816" prototype="id420895">
           <attributes>
             <point id="position">
-              <real id="x">100</real>
-              <real id="y">934</real>
+              <real id="x">384</real>
+              <real id="y">970</real>
             </point>
             <size id="size">
               <real id="width">120</real>
-              <real id="height">120</real>
+              <real id="height">55</real>
             </size>
             <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id231158" prototype="id767897">
+          <attributes>
+            <point id="position">
+              <real id="x">325</real>
+              <real id="y">937</real>
+            </point>
+            <size id="size">
+              <real id="width">140</real>
+              <real id="height">116</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <integer id="id254946" name="oldScore">0</integer>
           </attributes>
           <aspects />
         </actor>

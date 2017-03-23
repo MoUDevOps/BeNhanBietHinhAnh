@@ -29,6 +29,108 @@
     <image name="snail">
       <file name="snail.png" size="1162" />
     </image>
+    <image name="Run (1)">
+      <file name="Run (1).png" size="62386" />
+    </image>
+    <image name="Run (2)">
+      <file name="Run (2).png" size="64164" />
+    </image>
+    <image name="Run (3)">
+      <file name="Run (3).png" size="64752" />
+    </image>
+    <image name="Run (4)">
+      <file name="Run (4).png" size="63934" />
+    </image>
+    <image name="Run (5)">
+      <file name="Run (5).png" size="62542" />
+    </image>
+    <image name="Run (6)">
+      <file name="Run (6).png" size="63228" />
+    </image>
+    <image name="Run (7)">
+      <file name="Run (7).png" size="64014" />
+    </image>
+    <image name="Run (8)">
+      <file name="Run (8).png" size="63014" />
+    </image>
+    <image name="Idle (1)">
+      <file name="Idle (1).png" size="61415" />
+    </image>
+    <image name="Idle (2)">
+      <file name="Idle (2).png" size="61674" />
+    </image>
+    <image name="Idle (3)">
+      <file name="Idle (3).png" size="61787" />
+    </image>
+    <image name="Idle (4)">
+      <file name="Idle (4).png" size="61960" />
+    </image>
+    <image name="Idle (5)">
+      <file name="Idle (5).png" size="62576" />
+    </image>
+    <image name="Idle (6)">
+      <file name="Idle (6).png" size="62551" />
+    </image>
+    <image name="Idle (7)">
+      <file name="Idle (7).png" size="62830" />
+    </image>
+    <image name="Idle (8)">
+      <file name="Idle (8).png" size="62704" />
+    </image>
+    <image name="Idle (9)">
+      <file name="Idle (9).png" size="62365" />
+    </image>
+    <image name="Idle (10)">
+      <file name="Idle (10).png" size="62024" />
+    </image>
+    <image name="Jump (1)">
+      <file name="Jump (1).png" size="62421" />
+    </image>
+    <image name="Jump (2)">
+      <file name="Jump (2).png" size="65671" />
+    </image>
+    <image name="Jump (3)">
+      <file name="Jump (3).png" size="63750" />
+    </image>
+    <image name="Jump (4)">
+      <file name="Jump (4).png" size="64219" />
+    </image>
+    <image name="Jump (5)">
+      <file name="Jump (5).png" size="64266" />
+    </image>
+    <image name="Jump (6)">
+      <file name="Jump (6).png" size="64221" />
+    </image>
+    <image name="Jump (7)">
+      <file name="Jump (7).png" size="63913" />
+    </image>
+    <image name="Jump (8)">
+      <file name="Jump (8).png" size="64128" />
+    </image>
+    <image name="Fall (1)">
+      <file name="Fall (1).png" size="64266" />
+    </image>
+    <image name="Fall (2)">
+      <file name="Fall (2).png" size="65730" />
+    </image>
+    <image name="Fall (3)">
+      <file name="Fall (3).png" size="66905" />
+    </image>
+    <image name="Fall (4)">
+      <file name="Fall (4).png" size="66601" />
+    </image>
+    <image name="Fall (5)">
+      <file name="Fall (5).png" size="66256" />
+    </image>
+    <image name="Fall (6)">
+      <file name="Fall (6).png" size="66651" />
+    </image>
+    <image name="Fall (7)">
+      <file name="Fall (7).png" size="66741" />
+    </image>
+    <image name="Fall (8)">
+      <file name="Fall (8).png" size="66798" />
+    </image>
   </images>
   <fonts />
   <behaviors />

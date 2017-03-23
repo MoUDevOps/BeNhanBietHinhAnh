@@ -130,6 +130,54 @@
             <text id="RHS">0</text>
           </attributes>
         </behavior>
+        <behavior id="id898789" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id946047</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
+        <behavior id="id302711" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id858640</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
+        <behavior id="id898135" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id804361</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
+        <behavior id="id656167" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id684437</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
+        <behavior id="id725382" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id951371</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
+        <behavior id="id635243" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id243366</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
         <behavior id="id447640" class="ChangeSceneAction" enabled="true">
           <attributes>
             <text id="name">Change Scene</text>
