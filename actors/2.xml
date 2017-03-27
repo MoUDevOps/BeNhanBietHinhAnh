@@ -18,7 +18,7 @@
       <real id="blue">0</real>
       <real id="alpha">1</real>
     </color>
-    <image id="image">barnacle</image>
+    <image id="image" />
     <text id="tags" />
     <boolean id="preloadArt">true</boolean>
     <real id="id169089" name="DoneStatus">0</real>
@@ -31,19 +31,6 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id916400" eventType="overlaps or collides" pluginPredicateTypeIndex="0" class="Collision">
-          <attributes>
-            <text id="name">default name</text>
-            <index id="conditionType">0</index>
-          </attributes>
-          <predicate type="collision">
-            <attributes>
-              <text id="prototypeKey">id477393</text>
-              <text id="actorTag" />
-              <real id="mode">0</real>
-            </attributes>
-          </predicate>
-        </condition>
         <condition id="id242702" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
           <attributes>
             <index id="conditionType">1</index>
@@ -138,6 +125,202 @@
               </expression>
             </text>
           </attributes>
+        </behavior>
+      </behaviors>
+    </behavior>
+    <behavior id="id890518" class="CompoundBehavior" enabled="true">
+      <attributes>
+        <text id="name">Group</text>
+        <text id="bundleName">Group.behavior</text>
+        <boolean id="runOnce">false</boolean>
+        <boolean id="runSequentially">false</boolean>
+      </attributes>
+      <behaviors>
+        <behavior id="id398615" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id240816" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id672953</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">1</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id298754" class="ChangeImageAction" enabled="true">
+              <attributes>
+                <text id="name">Change Image</text>
+                <text id="bundleName">ChangeImage.behavior</text>
+                <image id="image">11</image>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id961275" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id930573" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id672953</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">2</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id636517" class="ChangeImageAction" enabled="true">
+              <attributes>
+                <text id="name">Change Image</text>
+                <text id="bundleName">ChangeImage.behavior</text>
+                <image id="image">12</image>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id913002" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id389086" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id672953</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">3</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id363193" class="ChangeImageAction" enabled="true">
+              <attributes>
+                <text id="name">Change Image</text>
+                <text id="bundleName">ChangeImage.behavior</text>
+                <image id="image">13</image>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id499678" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id354412" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id672953</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">4</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id955701" class="ChangeImageAction" enabled="true">
+              <attributes>
+                <text id="name">Change Image</text>
+                <text id="bundleName">ChangeImage.behavior</text>
+                <image id="image">14</image>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id857594" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id414200" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id672953</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">5</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id439081" class="ChangeImageAction" enabled="true">
+              <attributes>
+                <text id="name">Change Image</text>
+                <text id="bundleName">ChangeImage.behavior</text>
+                <image id="image">15</image>
+              </attributes>
+            </behavior>
+          </behaviors>
+        </behavior>
+        <behavior id="id842922" class="RuleBehavior" enabled="true">
+          <attributes>
+            <text id="name">Rule</text>
+            <text id="bundleName">Rule.behavior</text>
+            <real id="compoundConditionKind">0</real>
+          </attributes>
+          <conditions>
+            <condition id="id367851" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+              <attributes>
+                <index id="conditionType">1</index>
+                <text id="subjectAttribute">game.attributes.id672953</text>
+                <text id="name">default name</text>
+              </attributes>
+              <predicate type="number">
+                <attributes>
+                  <text id="operator">=</text>
+                  <real id="RHS">6</real>
+                </attributes>
+              </predicate>
+            </condition>
+          </conditions>
+          <behaviors>
+            <behavior id="id573527" class="ChangeImageAction" enabled="true">
+              <attributes>
+                <text id="name">Change Image</text>
+                <text id="bundleName">ChangeImage.behavior</text>
+                <image id="image">16</image>
+              </attributes>
+            </behavior>
+          </behaviors>
         </behavior>
       </behaviors>
     </behavior>

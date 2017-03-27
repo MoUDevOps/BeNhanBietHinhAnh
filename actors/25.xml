@@ -73,7 +73,7 @@
     </behavior>
     <behavior id="id402483" class="RuleBehavior" enabled="true">
       <attributes>
-        <text id="name">Rule</text>
+        <text id="name">End game</text>
         <text id="bundleName">Rule.behavior</text>
         <real id="compoundConditionKind">1</real>
       </attributes>
@@ -178,6 +178,14 @@
             <text id="RHS">0</text>
           </attributes>
         </behavior>
+        <behavior id="id367924" class="ChangeAttributeAction" enabled="true">
+          <attributes>
+            <text id="name">Change Attribute</text>
+            <text id="bundleName">ChangeAttribute.behavior</text>
+            <text id="targetAttribute">game.attributes.id672953</text>
+            <text id="RHS">0</text>
+          </attributes>
+        </behavior>
         <behavior id="id447640" class="ChangeSceneAction" enabled="true">
           <attributes>
             <text id="name">Change Scene</text>
@@ -191,7 +199,7 @@
     </behavior>
     <behavior id="id249410" class="DisplayTextBehavior" enabled="true">
       <attributes>
-        <text id="name">Display Text</text>
+        <text id="name">Display timer</text>
         <text id="bundleName">DisplayText.behavior</text>
         <text id="text">
           <expression>
@@ -213,6 +221,18 @@
         <index id="space">0</index>
         <index id="directionSpace">0</index>
         <angle id="direction">0</angle>
+      </attributes>
+    </behavior>
+    <behavior id="id785676" class="ChangeAttributeAction" enabled="true">
+      <attributes>
+        <text id="name">imagemapping set</text>
+        <text id="bundleName">ChangeAttribute.behavior</text>
+        <text id="targetAttribute">game.attributes.id672953</text>
+        <text id="RHS">
+          <expression>
+            <string xml:space="preserve">random(1, 6)</string>
+          </expression>
+        </text>
       </attributes>
     </behavior>
   </behaviors>
