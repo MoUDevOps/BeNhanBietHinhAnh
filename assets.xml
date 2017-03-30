@@ -1,6 +1,109 @@
 <?xml version="1.0" encoding="utf-8"?>
 <assets PGFVersion="0.25" GSCVersion="1.25.6227">
-  <sounds />
+  <sounds>
+    <sound name="ant">
+      <file name="ant.ogg" size="6434" />
+    </sound>
+    <sound name="bear">
+      <file name="bear.ogg" size="6287" />
+    </sound>
+    <sound name="bee">
+      <file name="bee.ogg" size="5760" />
+    </sound>
+    <sound name="blackpanther">
+      <file name="blackpanther.ogg" size="8608" />
+    </sound>
+    <sound name="butterfly">
+      <file name="butterfly.ogg" size="7552" />
+    </sound>
+    <sound name="cow">
+      <file name="cow.ogg" size="5842" />
+    </sound>
+    <sound name="crab">
+      <file name="crab.ogg" size="6916" />
+    </sound>
+    <sound name="chicken">
+      <file name="chicken.ogg" size="7973" />
+    </sound>
+    <sound name="dog">
+      <file name="dog.ogg" size="6584" />
+    </sound>
+    <sound name="duck">
+      <file name="duck.ogg" size="6697" />
+    </sound>
+    <sound name="elephant">
+      <file name="elephant.ogg" size="7465" />
+    </sound>
+    <sound name="fish">
+      <file name="fish.ogg" size="7314" />
+    </sound>
+    <sound name="fox">
+      <file name="fox.ogg" size="7669" />
+    </sound>
+    <sound name="giraffe">
+      <file name="giraffe.ogg" size="7678" />
+    </sound>
+    <sound name="hermitcrab">
+      <file name="hermitcrab.ogg" size="8620" />
+    </sound>
+    <sound name="hippopotamus">
+      <file name="hippopotamus.ogg" size="9384" />
+    </sound>
+    <sound name="horse">
+      <file name="horse.ogg" size="7509" />
+    </sound>
+    <sound name="ladybug">
+      <file name="ladybug.ogg" size="7810" />
+    </sound>
+    <sound name="leopard">
+      <file name="leopard.ogg" size="6968" />
+    </sound>
+    <sound name="mouse">
+      <file name="mouse.ogg" size="6831" />
+    </sound>
+    <sound name="octopus">
+      <file name="octopus.ogg" size="8270" />
+    </sound>
+    <sound name="owl">
+      <file name="owl.ogg" size="5873" />
+    </sound>
+    <sound name="pig">
+      <file name="pig.ogg" size="6542" />
+    </sound>
+    <sound name="rabbit">
+      <file name="rabbit.ogg" size="7235" />
+    </sound>
+    <sound name="racoon">
+      <file name="racoon.ogg" size="7416" />
+    </sound>
+    <sound name="rhino">
+      <file name="rhino.ogg" size="6860" />
+    </sound>
+    <sound name="seahorse">
+      <file name="seahorse.ogg" size="8398" />
+    </sound>
+    <sound name="snail">
+      <file name="snail.ogg" size="7639" />
+    </sound>
+    <sound name="snake">
+      <file name="snake.ogg" size="7786" />
+    </sound>
+    <sound name="squirle">
+      <file name="squirle.ogg" size="8225" />
+    </sound>
+    <sound name="starfish">
+      <file name="starfish.ogg" size="9559" />
+    </sound>
+    <sound name="turtle">
+      <file name="turtle.ogg" size="6598" />
+    </sound>
+    <sound name="worm">
+      <file name="worm.ogg" size="6405" />
+    </sound>
+    <sound name="shrimp">
+      <file name="shrimp.ogg" size="7745" />
+    </sound>
+  </sounds>
   <images>
     <image name="Run (1)">
       <file name="Run (1).png" size="62386" />

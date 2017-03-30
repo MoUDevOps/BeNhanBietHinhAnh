@@ -3,6 +3,40 @@
   <layers>
     <layer id="id897060">
       <actors>
+        <actor id="id158915" prototype="id410284">
+          <attributes>
+            <point id="position">
+              <real id="x">388</real>
+              <real id="y">512</real>
+            </point>
+            <size id="size">
+              <real id="width">799</real>
+              <real id="height">1065</real>
+            </size>
+            <angle id="rotation">0</angle>
+          </attributes>
+          <aspects />
+        </actor>
+        <actor id="id286774" prototype="id886604">
+          <attributes>
+            <point id="position">
+              <real id="x">214</real>
+              <real id="y">679</real>
+            </point>
+            <size id="size">
+              <real id="width">347</real>
+              <real id="height">400</real>
+            </size>
+            <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.501960784313725</real>
+              <real id="green">1</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
+          </attributes>
+          <aspects />
+        </actor>
         <actor id="id734816" prototype="id420895">
           <attributes>
             <point id="position">
@@ -119,35 +153,47 @@
         <actor id="id213396" prototype="id672342">
           <attributes>
             <point id="position">
-              <real id="x">250</real>
-              <real id="y">500</real>
+              <real id="x">270</real>
+              <real id="y">560</real>
             </point>
             <size id="size">
               <real id="width">120</real>
               <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects />
         </actor>
         <actor id="id469267" prototype="id468065">
           <attributes>
             <point id="position">
-              <real id="x">250</real>
-              <real id="y">650</real>
+              <real id="x">270</real>
+              <real id="y">680</real>
             </point>
             <size id="size">
               <real id="width">120</real>
               <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects />
         </actor>
         <actor id="id895049" prototype="id227082">
           <attributes>
             <point id="position">
-              <real id="x">250</real>
+              <real id="x">270</real>
               <real id="y">800</real>
             </point>
             <size id="size">
@@ -155,41 +201,59 @@
               <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects />
         </actor>
         <actor id="id425992" prototype="id350283">
           <attributes>
             <point id="position">
-              <real id="x">100</real>
-              <real id="y">500</real>
+              <real id="x">150</real>
+              <real id="y">560</real>
             </point>
             <size id="size">
               <real id="width">120</real>
               <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects />
         </actor>
         <actor id="id716646" prototype="id913091">
           <attributes>
             <point id="position">
-              <real id="x">100</real>
-              <real id="y">650</real>
+              <real id="x">150</real>
+              <real id="y">680</real>
             </point>
             <size id="size">
               <real id="width">120</real>
               <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects />
         </actor>
         <actor id="id945262" prototype="id824307">
           <attributes>
             <point id="position">
-              <real id="x">100</real>
+              <real id="x">150</real>
               <real id="y">800</real>
             </point>
             <size id="size">
@@ -197,6 +261,12 @@
               <real id="height">120</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">1</real>
+              <real id="green">0.501960784313725</real>
+              <real id="blue">0.501960784313725</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects />
         </actor>
